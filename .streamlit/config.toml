@@ -1,0 +1,43 @@
+[theme]
+base = "light"
+primaryColor = "#7C3AED"
+backgroundColor = "#FAF8FD"
+secondaryBackgroundColor = "#F3EEFB"
+textColor = "#1F1535"
+borderColor = "#ECE6F5"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "0.7rem"
+buttonRadius = "0.6rem"
+baseFontSize = 14
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, sans-serif"
+headingFont = "Plus Jakarta Sans:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap, Inter, sans-serif"
+headingFontSizes = ["1.75rem", "1.35rem", "1.1rem", "1rem", "0.9rem", "0.8rem"]
+headingFontWeights = [800, 700, 700, 600, 600, 600]
+linkColor = "#7C3AED"
+dataframeHeaderBackgroundColor = "#F5F0FC"
+# Recolour Streamlit's "blue" (st.info, :blue-badge) to brand violet.
+blueColor = "#7C3AED"
+blueBackgroundColor = "#F3E8FF"
+blueTextColor = "#5B21B6"
+violetColor = "#7C3AED"
+chartCategoricalColors = ["#7C3AED", "#EC4899", "#F59E0B", "#14B8A6", "#6366F1", "#F472B6", "#A78BFA", "#22C55E"]
+chartSequentialColors = ["#FAF5FF", "#F3E8FF", "#E9D5FF", "#D8B4FE", "#C084FC", "#A855F7", "#9333EA", "#7E22CE", "#6B21A8", "#4C1D95"]
+
+[theme.sidebar]
+backgroundColor = "#1E1238"
+secondaryBackgroundColor = "#2D1D50"
+textColor = "#EDE7F8"
+borderColor = "#3B2A63"
+primaryColor = "#F472B6"
+headingFontSizes = ["1.2rem", "1rem", "0.9rem"]
+
+[server]
+headless = true
+runOnSave = false
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
