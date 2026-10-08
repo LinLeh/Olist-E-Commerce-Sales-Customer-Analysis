@@ -47,7 +47,8 @@ A data analysis project using the [Brazilian E-Commerce Public Dataset by Olist]
 ├── Olist Brazilian E-Commerce dataset/  raw CSV files from Kaggle
 ├── images/                              dashboard screenshots
 ├── .streamlit/config.toml               dashboard colours
-└── requirements.txt
+├── requirements.txt                     packages for the dashboard (used by Streamlit Cloud)
+└── requirements-notebook.txt            extra packages for the notebook
 ```
 
 ## How to run
@@ -55,7 +56,8 @@ A data analysis project using the [Brazilian E-Commerce Public Dataset by Olist]
 ```bash
 python -m venv .venv
 .venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-notebook.txt   # dashboard + notebook packages
+                                           # (requirements.txt alone is enough for the dashboard)
 
 # 1. Open olist_analysis.ipynb in VS Code, choose the .venv kernel and click "Run All"
 #    (this also saves the clean data to data/). To use Jupyter in the browser instead:
